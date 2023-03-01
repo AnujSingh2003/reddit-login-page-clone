@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.login p {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+.or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.agree {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 101vh;
+  font-family: 'Noto Sans', sans-serif;
+}
+.or hr {
+  width: 15vh;
+  margin-left: 12px;
+}
+.text {
+  color: #0079d3;
+  font-weight: bolder;
+}
+.form {
+  width: 50vh;
+  padding: 20px;
+  margin-top: 5%;
+}
+.bar {
+  width: 39vh;
+  height: 53px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 10vh;
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+  padding-right: 80px;
+  font-size: 19px;
+  cursor: pointer;
+  color: #4d4d7b;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.bar:hover {
+  background-color: #cad1e0;
+}
+.loginbutton {
+  width: 39vh;
+  height: 46px;
+  font-weight: bolder;
+  margin-top: 10px;
+  border-radius: 1vh;
+  border: 1px solid #dadce0;
+  color: #fff;
+  background-color:#0079d3;;
+  cursor: pointer;
+}
+.loginbutton:hover{
+  background-color: #6ca0c7;
+}
+.button img {
+  height: 24px;
+}
+.mainButton {
+  text-align: center;
+  margin-top: 95px;
+}
+.box {
+  border-style: none;
+  background-color: #fcfcfb;
+  width: 38vh;
+  height: 4vh;
+}
+
+.input {
+  margin-top: 10px;
+  border: 2px solid #dadce0;
+  border-radius: 1vh;
+  width: 17vw;
+}
+.paragraph {
+  margin-top: 18px;
+  font-size: 21px;
+  font-weight: lighter;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.paragraph2 {
+  margin-top: 28px;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.leftline {
+  position: absolute;
+  left: 421px;
+}
+::placeholder{
+  font-family: Poppins,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 328px) {
+  .containerLeft {
+    width: 214px;
+    background-image: url(/images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 430px;
+  }
+  .containerRight {
+    height: 99vh;
+    width: 90%;
+  }
+  
+}
